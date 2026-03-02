@@ -19,18 +19,18 @@ Windows and other devices will see it as a real game controller — no extra sof
 
 - **Bluetooth HID Gamepad** — Registers as a native game controller, no receiver app or drivers needed
 - **Full Controller Support** — Buttons, analog sticks, triggers, D-pad, bumpers, thumbstick clicks
-- **Low Latency** — Event-driven input pipeline, compact 8-byte HID reports
-- **Screen Dim + OLED Black** — Dims screen on inactivity, optional full-black overlay for OLED panels
+- **Low Latency** — Sends out compact reports, for latency that is very competitive with standard controllers
+- **Screen Dim + OLED Black** — Dims screen on inactivity, so it doesn't kill your battery life
 - **Hair Triggers** — Per-trigger option for instant full-press at minimal physical input
-- **Configurable Deadzones** — Per-stick deadzone sliders (0-20%) with scaled output
-- **Exclusive Button Mode** — Prevents gamepad buttons from navigating Android while active
-- **Foreground Service** — Keeps Bluetooth connection alive when backgrounded
+- **Configurable Deadzones** — Per-stick deadzone sliders with scaled output
+- **Exclusive Button Mode** — Allows you to open other apps, while still keeping the d-pad and face buttons active
+
 
 ## Requirements
 
 - Android 9+
 - Bluetooth on both device and host
-- Host that supports Bluetooth HID gamepads (Windows 10/11, etc.)
+- Host that supports Bluetooth HID gamepas. It should work with Windows, Android, and Linux. Sadly no Switch support for now 
 
 ## How to Use
 
